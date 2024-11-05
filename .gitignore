@@ -1,0 +1,43 @@
+# Python files and compiled bytecode
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+*.env
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Virtual environment directory
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Heroku files
+*.sqlite3
+.heroku/
+
+# Cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local Heroku configuration files
+Procfile.local
